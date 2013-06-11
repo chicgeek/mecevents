@@ -1,0 +1,68 @@
+#eventfeed {
+    clear: both;
+    text-align: left;
+    width: 200px;
+    background: url('http://mediaroom.mec.ca/test/events/feed_background.png') top left no-repeat;
+    padding: 10px;
+    font-family: sans-serif;
+}
+#eventfeed * {
+    font-size: 11px;
+}
+#eventfeed h2 {
+    margin: 6px 0;
+    color: #00853F;
+    font-size: 13px;
+}
+#eventfeed ul {
+    padding-left: 0px;
+    margin-bottom: 0;
+    list-style: none;
+}
+#eventfeed li {
+    position: relative;
+    min-height: 35px;
+    padding: 0 0 10px 33px;
+    margin: 0;
+    border: 0;
+}
+#eventfeed a {
+    border-bottom: 1px solid;
+}
+#eventfeed a:hover {
+    border-bottom: 1px dotted;
+}
+#eventfeed p {
+    margin: 0;
+}
+#eventfeed .eventtitle a {
+    font-weight: bold;
+    font-size: 12px;
+}
+#eventfeed .eventdate {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 25px;
+    text-align: center;
+}
+#eventfeed .eventday {
+    color: #00853F;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: bold;
+}
+#eventfeed .eventmonth {
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 100%;
+}
+#eventfeed .eventdescription {
+    font-size: 11px;
+    margin: 5px 0 0 0;
+    line-height: 14px;
+}
+#eventfeed .eventfooter a {
+    clear: both;
+    font-size: 11px;
+}
